@@ -14,6 +14,9 @@ public class Main {
         System.out.println(isStartWithA.test(string));
         System.out.println(isStartWithA.test(string) ? "Yes Start with A" : "No, Not Start with A");
 
-
+        //combining two prdicate of isStartWithA and isEndWithT
+        Predicate<String> isEndWithT = str -> str.toLowerCase().endsWith("t");
+        final Predicate<String> and = isStartWithA.and(isEndWithT);
+        System.out.println(and.test(string));
     }
 }
