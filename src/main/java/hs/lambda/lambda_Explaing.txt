@@ -10,3 +10,6 @@
     2. (parameter1, parameter2) -> expression     // more than one praremter wrap into paranthesis
                                                   // expression : any operation e.g. (a + b)
     3. (parameter1, parameter2) -> { code block }
+
+    Functional programming : Functional Interface reference used to store lambda expression
+                             when any anonymous function treat as variable.
