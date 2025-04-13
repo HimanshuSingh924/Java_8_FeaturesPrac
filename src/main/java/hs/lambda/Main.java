@@ -12,5 +12,7 @@ public class Main {
         System.out.println(sum.operation(1, 2));
         System.out.println(sum1.operation(2,3));
         System.out.println(sum2.operation(3,4));
+
+        Test.test();
     }
 }

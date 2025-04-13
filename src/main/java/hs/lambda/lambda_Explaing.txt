@@ -1,0 +1,12 @@
+    Java Lambda Expressions :
+
+    1. Lambda Expressions were added in Java 8.
+
+    2. A lambda expression is a short block of code which takes in parameters and returns a value.
+    3. Lambda expressions are similar to methods, but they do not need a name and they can be implemented right in the body of a method.
+
+    Syntax :
+    1. parameter -> expression                    // single parameter and expression
+    2. (parameter1, parameter2) -> expression     // more than one praremter wrap into paranthesis
+                                                  // expression : any operation e.g. (a + b)
+    3. (parameter1, parameter2) -> { code block }
