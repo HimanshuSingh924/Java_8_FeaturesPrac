@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class Test {
     public static void test(){
 
-
         ArrayList<Integer> number = new ArrayList<>();
         number.add(1);
         number.add(2);
