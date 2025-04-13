@@ -1,5 +1,6 @@
 package hs.predicate;
 
+//used for condition check
 import java.util.function.Predicate;
 
 public class Main {
