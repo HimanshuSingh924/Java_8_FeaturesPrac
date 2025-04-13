@@ -13,7 +13,7 @@ public class Test {
         number.add(4);
 
         number.forEach(n -> {
-            System.out.println(n);
+            System.out.println(n);               // both way SOP statement are same
         });
         number.forEach(System.out::println);
     }
